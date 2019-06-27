@@ -1,0 +1,27 @@
+{
+  "name": "10up/affiliate-wp-dwolla-payouts",
+  "description": "Affiliate Wp Dwolla Payouts",
+  "authors": [
+    {
+      "name": "Author",
+      "email": "info@10up.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AffiliateWpDwollaPayouts\\": "includes/classes/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "10up/wp_mock": "dev-dev",
+    "10up/phpcs-composer": "dev-master"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  }
+}
